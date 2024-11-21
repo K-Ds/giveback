@@ -1,0 +1,24 @@
+{
+  "compilerOptions": {
+    //"target": "ES2016",
+    "target": "es2020",
+    //"module": "commonjs",
+    "moduleResolution": "node16",
+    "module": "Node16",
+    "outDir": "dist",
+    "strict": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "skipLibCheck": true,
+    "rootDirs": [
+      "src"
+    ],
+    "noEmit": false,
+    "lib": [
+      "es2020"
+    ],
+    "types": [
+      "node"
+    ]
+  }
+}
